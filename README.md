@@ -4,7 +4,7 @@
 This assignment evaluates my understanding of HTML concepts covered in Module 4. It focuses on creating a fully functional HTML page using essential elements like forms, tables, navigation bars, and images.
 
 ## Tasks
-The assignment is divided into the following parts, each designed to help you practice key HTML skills:
+The assignment is divided into the following parts, each designed to help me practice key HTML skills:
 
 ### Part 1: Form Creation
 - Create a basic contact form with fields for Name, Email, and Message, along with a Submit button.
