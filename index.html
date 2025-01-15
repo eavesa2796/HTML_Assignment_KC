@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 4 HTML Assignment</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <h1>My Website</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!-- Contact Form -->
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              required
+              placeholder="Enter your name"
+            />
+            <br /><br />
+
+            <label for="user-email">Email:</label>
+            <input
+              type="email"
+              id="user-email"
+              name="user-email"
+              required
+              placeholder="Enter your email"
+            />
+            <br /><br />
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br /><br />
+
+            <!-- Feedback  -->
+            <div>
+              <p>How did you hear about us?</p>
+              <input type="radio" id="google" name="feedback" value="Google" />
+              <label for="google" style="margin-right: 20px">Google</label>
+
+              <input
+                type="radio"
+                id="social-media"
+                name="feedback"
+                value="Social social-media"
+              />
+              <label for="social-media" style="margin-right: 20px"
+                >SociaL Media</label
+              >
+            </div>
+          </fieldset>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+
+      <!-- Image Section -->
+      <section>
+        <img src="https://placehold.co/300x200" alt="Blank Image" />
+        <br /><br />
+        <img
+          style="border-radius: 20px"
+          src="https://placehold.co/200x200"
+          alt="Blank Image"
+        />
+      </section>
+
+      <!-- Table Structure -->
+      <section>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Product Name</th>
+              <th>Price</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Orange Juice</td>
+              <td>$7</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>Apples</td>
+              <td>$9</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Protein Shake</td>
+              <td>$12</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Anthony Eaves. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
